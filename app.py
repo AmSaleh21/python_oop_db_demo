@@ -25,7 +25,7 @@ while choice != 'q':
             case 'nrml':
                 Employee.add_employee(name, age, False)
             case 'mngr':
-                Employee.add_employee(name, age, False)
+                Employee.add_employee(name, age, True)
             case default:
                 print('wrong choice set to non manager')
                 Employee.add_employee(name, age, False)
