@@ -19,7 +19,7 @@ while choice != 'q':
         name = input("Enter the name: ")
         age = input("Enter the age: ")
         level = input(f'''enter whether the employee is a normal or manager for normal
-                            {Fore.GREEN}nrml{Style.RESET_ALL} and {Fore.GREEN}mngr{Style.RESET_ALL} for manager [nrml]''')
+                            {Fore.GREEN}nrml{Style.RESET_ALL} and {Fore.GREEN}mngr{Style.RESET_ALL} for manager [nrml]: ''')
 
         match level:
             case 'nrml':
